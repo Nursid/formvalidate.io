@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:ital,wght@0,200;1,400&family=Roboto+Mono:ital,wght@1,100&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-weight: 300;
+}
+
+body {
+    background-color: #3498db;
+}
+
+.container {
+    width: 500px;
+    background-color: #ecf0f1;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(50, 42, 42) 5px;
+}
+
+label {
+    display: flex;
+    margin: 5px 0 5px 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #ecf0f1;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #95a5a6;
+    opacity: 10px;
+}
+
+#btn {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background-color: #27ae60;
+}
+
+#error {
+    color: red;
+}
+
+.password-check {
+    color: gray;
+}
+form i{
+    margin-left: -30px;
+    cursor: pointer;
+}
